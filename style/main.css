@@ -319,7 +319,8 @@ aside>span {
   section {
     grid-template-columns: 1fr;
     gap: 1rem;
-    border-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 
   .plan {
@@ -341,6 +342,15 @@ aside>span {
     min-height: 100%;
     transition-delay: 200ms;
     min-width: 300px;
+  }
+
+  section {
+    border-radius: 1rem;
+  }
+
+  aside {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   span {
